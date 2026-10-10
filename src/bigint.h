@@ -36,15 +36,21 @@ public:
     BigInt& pow(uIntMpz pow);
     BigInt& log(int base);
     /**
-     * @brief sizeBits
-     * @return size of bits in memory
+     * @brief Returns the size of the number in bits.
+     *
+     * The size of the number is the amount of memory allocated for the
+     * number in bits (sizeBytes() * 8).
+     * @return The size of the number in bits.
      */
     int sizeBits() const;
     int sizeBytes() const;
 
     /**
-     * @brief longBits
-     * @return current length in Bits of number
+     * @brief Returns the current length of the number in bits.
+     *
+     * The length of the number is the number of bits in the base 2
+     * (binary) representation of the number.
+     * @return The current length of the number in bits.
      */
     int longBits() const;
     int longBytes() const;
@@ -55,9 +61,13 @@ public:
     void fromHex(const std::string& hex);
 
     /**
-     * @brief bigPow10
-     * @param pow
-     * @return number 10 ^ pow
+     * @brief Returns 10 raised to the power of @a pow (10 ^ pow).
+     *
+     * The result is a new BigInt with the decimal representation "1"
+     * followed by @a pow zeros.
+     * @param pow The exponent of 10, i.e. the number of zeros following the
+     *            leading "1" in the decimal representation of the result.
+     * @return A new BigInt equal to 10 ^ pow.
      */
     static BigInt bigPow10(unsigned short pow);
 
