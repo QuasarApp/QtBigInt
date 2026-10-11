@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="QtBigInt - Arbitrary-sized integer class for C++ with qmake and CMake build system support. Powered by minigmp.">
+<title>QtBigInt - Arbitrary-sized integer class for C++</title>
+<style>
+  :root {
+    --md-primary: #1a73e8;
+    --md-primary-dark: #1765cc;
+    --md-on-primary: #ffffff;
+    --md-surface: #ffffff;
+    --md-background: #f6f8fc;
+    --md-on-surface: #202124;
+    --md-on-surface-variant: #5f6368;
+    --md-outline: #dadce0;
+    --md-shadow-1: 0 1px 2px rgba(60,64,67,.30), 0 1px 3px 1px rgba(60,64,67,.15);
+    --md-shadow-2: 0 1px 2px rgba(60,64,67,.30), 0 2px 6px 2px rgba(60,64,67,.15);
+    --md-radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background: var(--md-background);
+    color: var(--md-on-surface);
+    line-height: 1.6;
+  }
+
+  /* App bar */
+  .app-bar {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; gap: 16px;
+    background: var(--md-surface);
+    box-shadow: var(--md-shadow-1);
+    padding: 10px 24px;
+  }
+  .app-bar img { height: 34px; }
+  .app-bar .brand { font-size: 1.15rem; font-weight: 500; color: var(--md-on-surface); text-decoration: none; }
+  .app-bar nav { margin-left: auto; display: flex; gap: 8px; }
+
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    border: none; cursor: pointer;
+    border-radius: 999px;
+    padding: 10px 22px;
+    font-size: .95rem; font-weight: 500;
+    text-decoration: none;
+    transition: box-shadow .2s, background-color .2s;
+  }
+  .btn-filled { background: var(--md-primary); color: var(--md-on-primary); box-shadow: var(--md-shadow-1); }
+  .btn-filled:hover { background: var(--md-primary-dark); box-shadow: var(--md-shadow-2); }
+  .btn-tonal { background: #e8f0fe; color: var(--md-primary); }
+  .btn-tonal:hover { background: #d2e3fc; }
+  .btn-outlined { background: transparent; color: var(--md-primary); border: 1px solid var(--md-outline); }
+  .btn-outlined:hover { background: #f1f7fe; }
+  /* Hero */
+  .hero {
+    max-width: 960px; margin: 0 auto;
+    padding: 56px 24px 24px;
+    text-align: center;
+  }
+  .hero img.banner { width: 100%; max-width: 720px; border-radius: var(--md-radius); }
+  .hero h1 { font-size: 2.2rem; font-weight: 400; margin: 28px 0 8px; }
+  .hero h1 b { color: var(--md-primary); font-weight: 500; }
+  .hero p.lead { font-size: 1.1rem; color: var(--md-on-surface-variant); max-width: 640px; margin: 0 auto 28px; }
+  .hero .actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+  /* Cards */
+  .cards {
+    max-width: 960px; margin: 32px auto 0; padding: 0 24px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;
+  }
+  .card {
+    background: var(--md-surface);
+    border-radius: var(--md-radius);
+    box-shadow: var(--md-shadow-1);
+    padding: 24px;
+    transition: box-shadow .2s, transform .2s;
+  }
+  .card:hover { box-shadow: var(--md-shadow-2); transform: translateY(-2px); }
+  .card h2 { font-size: 1.15rem; font-weight: 500; margin: 0 0 8px; }
+  .card p { font-size: .95rem; color: var(--md-on-surface-variant); margin: 0 0 14px; }
+  .card ul { margin: 0; padding-left: 20px; font-size: .95rem; color: var(--md-on-surface-variant); }
+  .card li { margin-bottom: 6px; }
+  .card a { color: var(--md-primary); text-decoration: none; font-weight: 500; }
+  .card a:hover { text-decoration: underline; }
+
+  /* Usage section */
+  .usage { max-width: 960px; margin: 40px auto 0; padding: 0 24px; }
+  .usage h2 { font-size: 1.4rem; font-weight: 400; margin: 0 0 12px; }
+  .usage pre {
+    background: #202124; color: #e8eaed;
+    border-radius: var(--md-radius);
+    padding: 20px; overflow-x: auto;
+    font-family: "Roboto Mono", Consolas, monospace;
+    font-size: .9rem; line-height: 1.5;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 56px;
+    background: var(--md-surface);
+    border-top: 1px solid var(--md-outline);
+    padding: 20px 24px;
+    text-align: center;
+    font-size: .85rem;
+    color: var(--md-on-surface-variant);
+  }
+  footer a { color: var(--md-primary); text-decoration: none; }
+</style>
+
+<body>
+
+<header class="app-bar">
+  <img src="img/QtBigint_Logo_web.png" alt="QtBigInt logo">
+  <a class="brand" href="index.html">QtBigInt</a>
+  <nav>
+    <a class="btn btn-tonal" href="doc/index.html">Documentation</a>
+    <a class="btn btn-outlined" href="https://github.com/QuasarApp/QtBigInt">GitHub</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img class="banner" src="img/QtBigint_Banner_web.png" alt="QtBigInt banner">
+  <h1><b>QtBigInt</b> - Arbitrary-sized integer class for C++</h1>
+  <p class="lead">
+    Arbitrary-sized integer class for C++ with build system support for Qt (qmake) and CMake.
+    Powered by minigmp 6.1.2 for high performance, with no additional dependencies
+    other than the standard library.
+  </p>
+  <div class="actions">
+    <a class="btn btn-filled" href="doc/index.html">Read the Documentation</a>
+    <a class="btn btn-tonal" href="https://github.com/QuasarApp/QtBigInt">Get it on GitHub</a>
+  </div>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h2>API Reference</h2>
+    <p>Complete reference of the <code>BigInt</code> class, generated automatically with Doxygen.</p>
+    <a href="doc/index.html">Open API Reference &rarr;</a>
+  </div>
+  <div class="card">
+    <h2>Features</h2>
+    <ul>
+      <li>No additional dependencies other than the standard library</li>
+      <li>Support for all arithmetic operators</li>
+      <li>Based on the minigmp 6.1.2 library for high performance</li>
+      <li>Build system support: qmake and CMake</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Repository</h2>
+    <ul>
+      <li><a href="https://github.com/QuasarApp/QtBigInt">QuasarApp/QtBigInt</a></li>
+      <li><a href="https://github.com/QuasarApp/QtBigInt#build">Build instructions</a></li>
+      <li><a href="https://github.com/QuasarApp/QtBigInt/issues">Issues &amp; Discussions</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="usage">
+  <h2>Quick example</h2>
+  <pre>#include &lt;bigint.h&gt;
+
+BigInt big1 = 1234567890, big2;
+big2 = "9876543210123456789098765432101234567890";
+
+std::cout &lt;&lt; (big1 * big2 * 123456).getString() &lt;&lt; "\n";
+// Output: 1505331490682966620443288524512589666204282352096057600</pre>
+</section>
+
+<footer>
+  QtBigInt is distributed under the LGPL v3 license. &middot;
+  Documentation generated with <a href="https://www.doxygen.nl/">Doxygen</a> &middot;
+  <a href="https://github.com/QuasarApp">QuasarApp</a>
+</footer>
+
+</body>
+</html>
+

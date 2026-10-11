@@ -1,0 +1,43 @@
+name: Deploy Documentation (GitHub Pages)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    name: Build Doxygen and deploy to GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Doxygen and Graphviz
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y doxygen graphviz
+
+      - name: Generate Doxygen HTML documentation
+        run: doxygen doxygen.conf
+
+      - name: Stage the website
+        run: |
+          mkdir -p stage/doc stage/img
+          cp pages/index.html stage/index.html
+          cp -r docs/. stage/doc/
+          cp -r res/. stage/doc/res/
+          cp -r res/png/. stage/img/
+          cp -r res/svg/. stage/img/
+          ls -la stage
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: stage
+          clean: true
