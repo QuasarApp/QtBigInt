@@ -1,0 +1,11 @@
+<map id="mpz_get_str" name="mpz_get_str">
+<area shape="rect" id="Node000001" title=" " alt="" coords="531,31,633,56"/>
+<area shape="rect" id="Node000002" href="$classBigInt.html#a42f4e27b7cfd10e412c8df87fdfaf7e2" title=" " alt="" coords="356,5,483,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="517,36,483,31,483,25,518,31"/>
+<area shape="rect" id="Node000005" href="$mini-gmp_8c.html#ac926b3435d2a7842f281333d9ea10fe5" title=" " alt="" coords="368,55,471,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="518,55,471,62,470,57,517,50"/>
+<area shape="rect" id="Node000003" href="$classBigInt.html#a9ee28e52ec6b4ef87919ca01bc574b80" title="Returns the current length of the number in bits." alt="" coords="187,5,308,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,21,308,21,308,15,342,15"/>
+<area shape="rect" id="Node000004" href="$classBigInt.html#ad97b7da88f246747bcdf54fe69371d56" title=" " alt="" coords="5,5,139,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="173,21,139,21,139,15,173,15"/>
+</map>

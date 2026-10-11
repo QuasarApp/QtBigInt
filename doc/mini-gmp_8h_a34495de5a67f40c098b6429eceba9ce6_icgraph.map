@@ -1,0 +1,11 @@
+<map id="mpn_zero_p" name="mpn_zero_p">
+<area shape="rect" id="Node000001" title=" " alt="" coords="524,31,625,56"/>
+<area shape="rect" id="Node000002" href="$mini-gmp_8c.html#aa768ff91144b7b615abeff3c06c68666" title=" " alt="" coords="381,5,476,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="510,35,476,29,477,24,511,30"/>
+<area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a6a1b5052045dba8d4fa31a6f7978cea9" title=" " alt="" coords="381,55,476,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="511,57,477,62,476,57,510,51"/>
+<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#ac0a666324d532679d7600cdcd5c1792e" title=" " alt="" coords="171,55,333,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="368,70,333,70,333,65,368,65"/>
+<area shape="rect" id="Node000005" href="$classBigInt.html#a37d485ebca39135427ed33a543e0da36" title=" " alt="" coords="5,55,123,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="157,70,123,70,123,65,157,65"/>
+</map>

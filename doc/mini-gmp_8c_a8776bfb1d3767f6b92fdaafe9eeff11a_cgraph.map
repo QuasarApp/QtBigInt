@@ -1,0 +1,9 @@
+<map id="mpz_init_set_si" name="mpz_init_set_si">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,128,56"/>
+<area shape="rect" id="Node000002" href="$mini-gmp_8c.html#a7137b86210a82b374d19e4642959611a" title=" " alt="" coords="184,5,263,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,31,170,24,171,29,129,36"/>
+<area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a708a4c67dd3e4bb9b8371e58aec7224e" title=" " alt="" coords="176,55,271,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,50,163,55,162,61,128,55"/>
+<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#a3c0e33b35cf1f7d41471cef5add4d772" title=" " alt="" coords="319,55,415,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="271,65,305,65,305,70,271,70"/>
+</map>

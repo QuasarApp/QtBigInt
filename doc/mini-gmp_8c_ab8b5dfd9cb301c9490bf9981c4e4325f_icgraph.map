@@ -1,0 +1,35 @@
+<map id="mpz_tstbit" name="mpz_tstbit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1009,55,1100,80"/>
+<area shape="rect" id="Node000002" href="$mini-gmp_8c.html#a03e1b47bdd68a16bd8e74400462e51be" title=" " alt="" coords="865,5,955,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1003,53,947,33,949,28,1005,48"/>
+<area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a405cbef730109a1a16d8fa557b1c8cf1" title=" " alt="" coords="859,55,961,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="996,70,961,70,961,65,996,65"/>
+<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#a65cfd900eb4fd327aabc7cfe193213be" title=" " alt="" coords="863,104,957,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1005,87,949,106,947,101,1003,82"/>
+<area shape="rect" id="Node000005" href="$mini-gmp_8c.html#ac9de2cd8104a2da880ed198643607a56" title=" " alt="" coords="705,55,807,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="856,102,796,83,798,78,857,97"/>
+<area shape="rect" id="Node000011" href="$mini-gmp_8c.html#ae1f99d0de3d4aee7c960a65c7f31a4d2" title=" " alt="" coords="701,128,811,153"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="849,129,811,135,810,130,849,123"/>
+<area shape="rect" id="Node000006" href="$mini-gmp_8c.html#a81a79a4b9c7cd0ef83ea1c2a17bf4b05" title=" " alt="" coords="551,29,646,55"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="692,60,646,52,647,47,693,54"/>
+<area shape="rect" id="Node000007" href="$mini-gmp_8c.html#a8090665fb5f07eeb8f2cba0b98dfbd24" title=" " alt="" coords="362,29,459,55"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="537,45,460,45,460,39,537,39"/>
+<area shape="rect" id="Node000008" href="$mini-gmp_8c.html#a5540f7395f6bc63b0ff038c4ccfbeb61" title=" " alt="" coords="161,5,277,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="348,37,277,28,278,23,348,32"/>
+<area shape="rect" id="Node000009" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title=" " alt="" coords="165,55,273,80"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="349,53,274,63,273,58,348,48"/>
+<area shape="rect" id="Node000010" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title=" " alt="" coords="5,55,113,80"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="152,70,114,70,114,65,152,65"/>
+<area shape="rect" id="Node000012" href="$mini-gmp_8c.html#ab389921c1f3627d8b1a5e04f3b02fcd0" title=" " alt="" coords="544,79,653,104"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="701,126,639,107,641,102,703,121"/>
+<area shape="rect" id="Node000013" href="$mini-gmp_8c.html#af4b422d7bcdaacae4e393afe0f5f2144" title=" " alt="" coords="557,128,640,153"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="687,143,640,143,640,138,687,138"/>
+<area shape="rect" id="Node000016" href="$mini-gmp_8c.html#aaae4513a2970818b7160ce02e8da71db" title=" " alt="" coords="557,177,640,203"/>
+<area shape="poly" id="edge15_Node000011_Node000016" title=" " alt="" coords="703,160,641,180,639,175,701,155"/>
+<area shape="rect" id="Node000017" href="$mini-gmp_8c.html#a04918d940c9d66ae94a5e82d476fe6a2" title=" " alt="" coords="545,227,653,252"/>
+<area shape="poly" id="edge16_Node000011_Node000017" title=" " alt="" coords="731,164,695,191,655,218,633,229,630,224,652,213,692,186,727,160"/>
+<area shape="rect" id="Node000014" href="$mini-gmp_8c.html#ae4458c0e22f1f482de48fa6fe4d2d78a" title=" " alt="" coords="325,103,496,128"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="543,136,496,129,497,124,544,131"/>
+<area shape="rect" id="Node000015" href="$mini-gmp_8c.html#a1eadfd9d81af1460f3891498fd361a89" title=" " alt="" coords="326,152,495,177"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="544,150,496,156,495,151,543,145"/>
+</map>

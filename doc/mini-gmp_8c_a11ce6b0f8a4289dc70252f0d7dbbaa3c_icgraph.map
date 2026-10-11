@@ -1,0 +1,29 @@
+<map id="mpz_pow_ui" name="mpz_pow_ui">
+<area shape="rect" id="Node000001" title=" " alt="" coords="573,160,676,185"/>
+<area shape="rect" id="Node000002" href="$mini-gmp_8c.html#ae1f99d0de3d4aee7c960a65c7f31a4d2" title=" " alt="" coords="409,104,519,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="574,158,501,132,502,127,576,153"/>
+<area shape="rect" id="Node000009" href="$mini-gmp_8c.html#a8989a8ba1923a8c67b24d994e89b4f17" title=" " alt="" coords="403,160,525,185"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="560,175,526,175,526,170,560,170"/>
+<area shape="rect" id="Node000010" href="$classBigInt.html#ab89d4bd90389859a59c243d01b18b7bf" title=" " alt="" coords="417,247,511,272"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="590,194,490,249,487,244,587,190"/>
+<area shape="rect" id="Node000003" href="$mini-gmp_8c.html#ab389921c1f3627d8b1a5e04f3b02fcd0" title=" " alt="" coords="235,5,344,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,98,397,71,353,44,328,33,330,28,356,40,400,66,438,94"/>
+<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#af4b422d7bcdaacae4e393afe0f5f2144" title=" " alt="" coords="248,55,331,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="405,103,330,81,331,76,406,98"/>
+<area shape="rect" id="Node000007" href="$mini-gmp_8c.html#aaae4513a2970818b7160ce02e8da71db" title=" " alt="" coords="248,104,331,129"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="396,119,331,119,331,114,396,114"/>
+<area shape="rect" id="Node000008" href="$mini-gmp_8c.html#a04918d940c9d66ae94a5e82d476fe6a2" title=" " alt="" coords="235,153,343,179"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="406,136,336,156,335,151,405,131"/>
+<area shape="rect" id="Node000005" href="$mini-gmp_8c.html#ae4458c0e22f1f482de48fa6fe4d2d78a" title=" " alt="" coords="5,31,176,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,63,176,56,176,51,235,58"/>
+<area shape="rect" id="Node000006" href="$mini-gmp_8c.html#a1eadfd9d81af1460f3891498fd361a89" title=" " alt="" coords="6,80,175,105"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="235,77,176,85,175,79,234,72"/>
+<area shape="poly" id="edge11_Node000010_Node000010" title=" " alt="" coords="492,236,484,228,464,225,447,227,439,232,437,238,442,245,437,248,431,238,434,229,446,222,464,220,486,223,495,232"/>
+<area shape="rect" id="Node000011" href="$classBigInt.html#ab44349a2986c463d1acc6990213a300b" title="Returns 10 raised to the power of pow (10 ^ pow)." alt="" coords="224,203,355,228"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="403,247,340,231,341,226,404,242"/>
+<area shape="rect" id="Node000012" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title=" " alt="" coords="37,279,145,304"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="403,267,145,289,145,284,403,262"/>
+<area shape="rect" id="Node000013" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title=" " alt="" coords="235,304,343,329"/>
+<area shape="poly" id="edge13_Node000010_Node000013" title=" " alt="" coords="412,279,330,307,328,301,411,274"/>
+<area shape="poly" id="edge14_Node000013_Node000012" title=" " alt="" coords="221,311,144,301,145,296,222,305"/>
+</map>

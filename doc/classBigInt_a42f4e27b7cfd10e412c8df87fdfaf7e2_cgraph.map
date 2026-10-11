@@ -1,0 +1,10 @@
+<map id="BigInt::getString" name="BigInt::getString">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,132,31"/>
+<area shape="rect" id="Node000002" href="$mini-gmp_8c.html#aae39cd42caa1d2987641eb107ddedb77" title=" " alt="" coords="180,5,283,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,15,167,15,167,21,132,21"/>
+<area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a1aef7bad59f29188d017ebfb7ba2b161" title=" " alt="" coords="505,5,599,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="283,15,492,15,492,21,283,21"/>
+<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#a6478e6d008ec4f9bf66bc37215985e45" title=" " alt="" coords="331,31,457,56"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="283,23,317,29,316,34,282,29"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="457,31,491,25,492,30,458,36"/>
+</map>

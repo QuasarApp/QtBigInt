@@ -1,0 +1,9 @@
+<map id="mpn_sqr" name="mpn_sqr">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,84,56"/>
+<area shape="rect" id="Node000002" href="$mini-gmp_8c.html#aba91f66015a732290156113013bb67b5" title=" " alt="" coords="132,31,215,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,41,118,41,118,46,84,46"/>
+<area shape="rect" id="Node000003" href="$mini-gmp_8c.html#ae0995ee5d557e8051ada64bd83c47517" title=" " alt="" coords="263,5,385,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="214,34,249,28,250,33,215,39"/>
+<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#a2f1d67d8544aaf94ed981cbdd0356b42" title=" " alt="" coords="275,55,373,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="215,47,261,55,260,60,214,52"/>
+</map>
