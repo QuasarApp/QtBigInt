@@ -1,0 +1,70 @@
+name: Build and Test
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build-and-test:
+    name: ${{ matrix.os }} (${{ matrix.build_type }})
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        build_type: [Release]
+
+    steps:
+      - name: Install Qt (Windows)
+        uses: jurplel/install-qt-action@v4.3.1
+        if: runner.os == 'Windows'
+        with:
+          version: '6.10.3' # aqt has bug with latest qt versions in windows
+          target: 'desktop'
+          arch: 'win64_llvm_mingw'
+          cache: true
+          tools: 'tools_llvm_mingw1706'
+          aqtversion: ==3.3.*
+
+      - name: Install Qt (Linux)
+        uses: jurplel/install-qt-action@v4.3.1
+        if: runner.os == 'Linux'
+        with:
+          version: '6.12.0'
+          target: 'desktop'
+          arch: 'linux_gcc_64'
+          cache: true
+          aqtversion: ==3.3.*
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Configure CMake (Windows)
+        if: runner.os == 'Windows'
+        run: >
+          cmake -B ${{ github.workspace }}/build
+          -G Ninja
+          -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+          -DCMAKE_C_COMPILER=gcc
+          -DCMAKE_CXX_COMPILER=g++
+          -DCMAKE_PREFIX_PATH=${{ env.QT_ROOT_DIR }}
+          -S ${{ github.workspace }}
+
+      - name: Configure CMake (Linux)
+        if: runner.os == 'Linux'
+        run: >
+          cmake -B ${{ github.workspace }}/build
+          -G Ninja
+          -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+          -DCMAKE_PREFIX_PATH=${{ env.QT_ROOT_DIR }}
+          -S ${{ github.workspace }}
+
+      - name: Build
+        run: cmake --build ${{ github.workspace }}/build --config ${{ matrix.build_type }} --parallel 4
+
+      - name: Run Tests
+        working-directory: ${{ github.workspace }}/build
+        run: ctest --output-on-failure
