@@ -9,6 +9,7 @@
 #include <limits>
 #include <cstring>
 #include <cmath>
+#include <cstdlib>
 
 // constructors
 BigInt::BigInt() {
@@ -41,8 +42,10 @@ BigInt::BigInt(char item, unsigned int size, int base = 2):
 }
 
 std::string BigInt::getString(int base) const {
-    char *str = mpz_get_str(nullptr, base, data);
-    return str;
+    char *str = mpz_get_str(nullptr, base, data); // mpz_get_str allocates memory - it must be freed
+    std::string result = str;
+    free(str);
+    return result;
 }
 
 BigInt::~BigInt() {
