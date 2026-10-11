@@ -27,9 +27,5 @@ add_executable(${CURRENT_PROJECT} ${SOURCE_CPP})
 target_link_libraries(${CURRENT_PROJECT} PRIVATE Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Test QtBigint)
 target_include_directories(${CURRENT_PROJECT} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
-# Register the test executable with CTest so it can be run
-# via the standard CMake test infrastructure: `ctest`.
-add_test(NAME ${CURRENT_PROJECT} COMMAND ${CURRENT_PROJECT})
-
 initTests()
 addTests("QtBigint" ${CURRENT_PROJECT})

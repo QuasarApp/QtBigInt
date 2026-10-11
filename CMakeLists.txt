@@ -41,7 +41,6 @@ endif()
 add_subdirectory(src)
 
 if (BIGINT_TESTS)
-    enable_testing()
     add_subdirectory(tests)
 else()
     message("The ${PROJECT_NAME} tests is disabled.")
