@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
   <div class="headertitle"><div class="title"><img src="res/png/QtBigint_Banner_web.png" alt="QtBigInt Logo" class="inline"/> </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_README"></a> <b>QtBigInt</b> - Arbitrary-sized integer class for C++ and build system qmake and cmake. Power by minigmp.</p>
+<div class="textblock"><p><a class="anchor" id="md_README"></a> <b>QtBigInt</b> - Arbitrary-sized integer class for C++ and build system cmake. Power by minigmp.</p>
 <h1>Features</h1>
 <ul>
 <li>No additional dependencies other than the standard library.</li>
@@ -108,17 +108,6 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>make test #(for testing)</li>
 </ul>
 <h1>Include</h1>
-<h2>For qmake projects</h2>
-<ul>
-<li>cd yourRepo</li>
-<li>git submodule add <a href="https://github.com/QuasarApp/QtBigInt.git">https://github.com/QuasarApp/QtBigInt.git</a> # add the repository of QtBigInt into your repo like submodule</li>
-<li>git submodule update &ndash;init &ndash;recursive</li>
-<li>Include in your pro file the pri file of QtBigInt library <blockquote class="doxtable">
-<p>&zwj;&gt;include($$PWD/QtBigInt/GMP.pri)</p>
-</blockquote>
-</li>
-<li>Rebuild your project </li>
-</ul>
 <h2>For cmake projects</h2>
 <h4>The cmake build do not required Qt libraries.</h4>
 <ul>
