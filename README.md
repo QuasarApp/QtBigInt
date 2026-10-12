@@ -1,7 +1,7 @@
 
 # ![QtBigInt Logo](res/png/QtBigint_Banner_web.png)
 
-**QtBigInt** - Arbitrary-sized integer class for C++ and build system qmake and cmake. Power by minigmp.
+**QtBigInt** - Arbitrary-sized integer class for C++ and build system cmake. Power by minigmp.
 
 
 # Features
@@ -19,15 +19,6 @@
  * make test #(for testing)
 
 # Include
-
-## For qmake projects 
-
- * cd yourRepo
- * git submodule add https://github.com/QuasarApp/QtBigInt.git # add the repository of QtBigInt into your repo like submodule
- * git submodule update --init --recursive
- * Include in your pro file the pri file of QtBigInt library
-    >>include($$PWD/QtBigInt/GMP.pri)
- * Rebuild your project
 
 ## For cmake projects
 #### The cmake build do not required Qt libraries. 
