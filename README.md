@@ -1,7 +1,8 @@
-
-# ![QtBigInt Logo](res/png/QtBigint_Banner_web.png)
+# QtBigInt
 
 **QtBigInt** - Arbitrary-sized integer class for C++ and build system cmake. Powered by minigmp 6.3.0.
+
+![QtBigInt Logo](res/png/QtBigint_Banner_web.png)
 
 
 # Features
@@ -66,6 +67,9 @@ big2 = "9876543210123456789098765432101234567890";
 std::cout << (big1 * big2 * 123456).getString() << "\n";
 // Output: 1505331490682966620443288524512589666204282352096057600
 ```
+
+A complete, ready-to-compile example is available in
+[examples/bigint_usage_example.cpp](https://github.com/QuasarApp/QtBigInt/blob/main/examples/bigint_usage_example.cpp).
 
 # License
 QtBigInt is distributed under the [GNU Lesser General Public License v3.0](LICENSE) (LGPL-3.0).

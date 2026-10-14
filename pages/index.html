@@ -98,6 +98,9 @@
     font-family: "Roboto Mono", Consolas, monospace;
     font-size: .9rem; line-height: 1.5;
   }
+  .usage p.links { margin: 14px 0 0; font-size: .95rem; color: var(--md-on-surface-variant); }
+  .usage a { color: var(--md-primary); text-decoration: none; font-weight: 500; }
+  .usage a:hover { text-decoration: underline; }
 
   /* Footer */
   footer {
@@ -172,6 +175,11 @@ big2 = "9876543210123456789098765432101234567890";
 
 std::cout &lt;&lt; (big1 * big2 * 123456).getString() &lt;&lt; "\n";
 // Output: 1505331490682966620443288524512589666204282352096057600</pre>
+  <p class="links">
+    A complete, ready-to-compile example:
+    <a href="https://github.com/QuasarApp/QtBigInt/blob/main/examples/bigint_usage_example.cpp">examples/bigint_usage_example.cpp</a> &middot;
+    Read the human-readable <a href="doc/class_bigint.html">BigInt class documentation</a>.
+  </p>
 </section>
 
 <footer>
