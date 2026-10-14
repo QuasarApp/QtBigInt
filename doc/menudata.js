@@ -65,4 +65,5 @@ var menudata={children:[
 {text:"Macros",url:"globals_defs.html",children:[
 {text:"g",url:"globals_defs.html#index_g"},
 {text:"m",url:"globals_defs.html#index_m"},
-{text:"u",url:"globals_defs.html#index_u"}]}]}]}]}
+{text:"u",url:"globals_defs.html#index_u"}]}]}]},
+{text:"Examples",url:"examples.html"}]}

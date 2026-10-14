@@ -4,13 +4,13 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="744,103,678,83,679,78,745,97"/>
 <area shape="rect" id="Node000007" href="$mini-gmp_8c.html#ae1f99d0de3d4aee7c960a65c7f31a4d2" title=" " alt="" coords="580,153,689,179"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="745,136,679,156,678,151,744,131"/>
-<area shape="rect" id="Node000003" href="$classBigInt.html#a42f4e27b7cfd10e412c8df87fdfaf7e2" title=" " alt="" coords="405,5,532,31"/>
+<area shape="rect" id="Node000003" href="$classBigInt.html#a42f4e27b7cfd10e412c8df87fdfaf7e2" title="Returns the number as a string." alt="" coords="405,5,532,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="578,53,512,33,513,28,579,48"/>
 <area shape="rect" id="Node000006" href="$mini-gmp_8c.html#ac926b3435d2a7842f281333d9ea10fe5" title=" " alt="" coords="417,55,520,80"/>
 <area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="570,70,520,70,520,65,570,65"/>
 <area shape="rect" id="Node000004" href="$classBigInt.html#a9ee28e52ec6b4ef87919ca01bc574b80" title="Returns the current length of the number in bits." alt="" coords="211,5,333,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="391,21,333,21,333,15,391,15"/>
-<area shape="rect" id="Node000005" href="$classBigInt.html#ad97b7da88f246747bcdf54fe69371d56" title=" " alt="" coords="5,5,139,31"/>
+<area shape="rect" id="Node000005" href="$classBigInt.html#ad97b7da88f246747bcdf54fe69371d56" title="Returns the current length of the number in bytes." alt="" coords="5,5,139,31"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="197,21,139,21,139,15,197,15"/>
 <area shape="rect" id="Node000008" href="$mini-gmp_8c.html#ab389921c1f3627d8b1a5e04f3b02fcd0" title=" " alt="" coords="414,104,523,129"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="578,152,512,132,513,127,579,147"/>

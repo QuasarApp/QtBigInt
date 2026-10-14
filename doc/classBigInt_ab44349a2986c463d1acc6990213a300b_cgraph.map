@@ -1,6 +1,6 @@
 <map id="BigInt::bigPow10" name="BigInt::bigPow10">
 <area shape="rect" id="Node000001" title="Returns 10 raised to the power of pow (10 ^ pow)." alt="" coords="5,131,136,156"/>
-<area shape="rect" id="Node000002" href="$classBigInt.html#ab89d4bd90389859a59c243d01b18b7bf" title=" " alt="" coords="184,131,279,156"/>
+<area shape="rect" id="Node000002" href="$classBigInt.html#ab89d4bd90389859a59c243d01b18b7bf" title="Raises the number to an integer power (in place)." alt="" coords="184,131,279,156"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,141,170,141,170,146,136,146"/>
 <area shape="poly" id="edge15_Node000002_Node000002" title=" " alt="" coords="206,132,201,122,204,113,214,106,231,104,252,108,260,116,257,120,249,112,231,109,216,111,208,116,207,122,211,129"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a11ce6b0f8a4289dc70252f0d7dbbaa3c" title=" " alt="" coords="327,131,429,156"/>

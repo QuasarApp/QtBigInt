@@ -1,6 +1,6 @@
 var indexSectionsWithContent =
 {
-  0: "_abdefgilmopqrstu~",
+  0: "_bdefgilmopqrstu~",
   1: "_bgm",
   2: "bmr",
   3: "bfgilmopst~",
@@ -10,7 +10,7 @@ var indexSectionsWithContent =
   7: "g",
   8: "o",
   9: "gmu",
-  10: "ailpqrs"
+  10: "q"
 };
 
 var indexSectionNames =

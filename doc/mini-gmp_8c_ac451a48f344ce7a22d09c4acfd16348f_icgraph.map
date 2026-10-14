@@ -14,7 +14,7 @@
 <area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="907,239,877,266,841,292,817,304,815,299,839,288,874,262,903,235"/>
 <area shape="rect" id="Node000024" href="$mini-gmp_8c.html#a60cc9039f8bc6e8795934270868ada47" title=" " alt="" coords="709,351,833,376"/>
 <area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="917,241,888,291,867,318,842,341,822,353,819,348,838,337,863,315,883,288,913,238"/>
-<area shape="rect" id="Node000004" href="$classBigInt.html#a29ed6951728950203bbf07f23ed06687" title=" " alt="" coords="555,5,645,31"/>
+<area shape="rect" id="Node000004" href="$classBigInt.html#a29ed6951728950203bbf07f23ed06687" title="Computes the greatest common divisor of two numbers (in place)." alt="" coords="555,5,645,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="718,100,701,91,686,79,676,67,667,56,653,44,633,33,636,28,656,40,671,52,681,64,690,75,704,86,720,95"/>
 <area shape="rect" id="Node000005" href="$mini-gmp_8c.html#a808534ab6bf556d1f7de1db1fbc5590e" title=" " alt="" coords="551,55,649,80"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="717,102,647,83,648,78,719,97"/>
@@ -24,16 +24,16 @@
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="537,62,462,52,463,47,537,57"/>
 <area shape="rect" id="Node000007" href="$mini-gmp_8c.html#ac0a666324d532679d7600cdcd5c1792e" title=" " alt="" coords="331,80,493,105"/>
 <area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="537,78,494,84,493,79,537,73"/>
-<area shape="rect" id="Node000008" href="$classBigInt.html#a37d485ebca39135427ed33a543e0da36" title=" " alt="" coords="161,80,279,105"/>
+<area shape="rect" id="Node000008" href="$classBigInt.html#aef7a2d7a9d9356f023d472ef9b885e09" title="Tests if the number is prime." alt="" coords="161,80,279,105"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="317,95,279,95,279,90,317,90"/>
 <area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="707,167,648,168,648,163,706,162"/>
 <area shape="rect" id="Node000012" href="$mini-gmp_8c.html#a8090665fb5f07eeb8f2cba0b98dfbd24" title=" " alt="" coords="363,153,461,179"/>
 <area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="539,169,461,169,461,163,539,163"/>
 <area shape="rect" id="Node000013" href="$mini-gmp_8c.html#a5540f7395f6bc63b0ff038c4ccfbeb61" title=" " alt="" coords="162,141,278,167"/>
 <area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="349,165,278,160,278,155,349,159"/>
-<area shape="rect" id="Node000014" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title=" " alt="" coords="166,191,274,216"/>
+<area shape="rect" id="Node000014" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title="Modular exponentiation (in place)." alt="" coords="166,191,274,216"/>
 <area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="350,181,275,196,274,190,349,175"/>
-<area shape="rect" id="Node000015" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title=" " alt="" coords="5,191,113,216"/>
+<area shape="rect" id="Node000015" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title="Modular exponentiation (static, returns a new number)." alt="" coords="5,191,113,216"/>
 <area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="152,206,114,206,114,201,152,201"/>
 <area shape="rect" id="Node000017" href="$mini-gmp_8c.html#ab389921c1f3627d8b1a5e04f3b02fcd0" title=" " alt="" coords="545,203,655,228"/>
 <area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="712,251,644,231,646,226,714,245"/>

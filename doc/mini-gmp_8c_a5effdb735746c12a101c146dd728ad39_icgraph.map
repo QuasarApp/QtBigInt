@@ -27,11 +27,11 @@
 <area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="542,158,460,174,459,169,541,152"/>
 <area shape="rect" id="Node000009" href="$mini-gmp_8c.html#a5540f7395f6bc63b0ff038c4ccfbeb61" title=" " alt="" coords="161,144,277,169"/>
 <area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="348,176,277,167,278,161,348,170"/>
-<area shape="rect" id="Node000010" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title=" " alt="" coords="165,193,273,219"/>
+<area shape="rect" id="Node000010" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title="Modular exponentiation (in place)." alt="" coords="165,193,273,219"/>
 <area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="349,191,274,202,273,196,348,186"/>
-<area shape="rect" id="Node000011" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title=" " alt="" coords="5,193,113,219"/>
+<area shape="rect" id="Node000011" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title="Modular exponentiation (static, returns a new number)." alt="" coords="5,193,113,219"/>
 <area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="152,209,114,209,114,203,152,203"/>
-<area shape="rect" id="Node000015" href="$classBigInt.html#a37d485ebca39135427ed33a543e0da36" title=" " alt="" coords="544,305,661,331"/>
+<area shape="rect" id="Node000015" href="$classBigInt.html#aef7a2d7a9d9356f023d472ef9b885e09" title="Tests if the number is prime." alt="" coords="544,305,661,331"/>
 <area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="696,333,661,328,662,323,696,328"/>
 <area shape="rect" id="Node000017" href="$mini-gmp_8c.html#ab389921c1f3627d8b1a5e04f3b02fcd0" title=" " alt="" coords="548,355,657,380"/>
 <area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="728,403,652,383,653,378,729,398"/>

@@ -1,6 +1,6 @@
 <map id="mpz_gcd" name="mpz_gcd">
 <area shape="rect" id="Node000001" title=" " alt="" coords="528,55,608,80"/>
-<area shape="rect" id="Node000002" href="$classBigInt.html#a29ed6951728950203bbf07f23ed06687" title=" " alt="" coords="385,5,476,31"/>
+<area shape="rect" id="Node000002" href="$classBigInt.html#a29ed6951728950203bbf07f23ed06687" title="Computes the greatest common divisor of two numbers (in place)." alt="" coords="385,5,476,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="518,52,466,33,468,28,520,47"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a808534ab6bf556d1f7de1db1fbc5590e" title=" " alt="" coords="381,55,480,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="514,70,480,70,480,65,514,65"/>
@@ -10,6 +10,6 @@
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="367,62,302,53,303,47,368,56"/>
 <area shape="rect" id="Node000005" href="$mini-gmp_8c.html#ac0a666324d532679d7600cdcd5c1792e" title=" " alt="" coords="171,80,333,105"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="368,79,334,84,333,78,368,74"/>
-<area shape="rect" id="Node000006" href="$classBigInt.html#a37d485ebca39135427ed33a543e0da36" title=" " alt="" coords="5,80,123,105"/>
+<area shape="rect" id="Node000006" href="$classBigInt.html#aef7a2d7a9d9356f023d472ef9b885e09" title="Tests if the number is prime." alt="" coords="5,80,123,105"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="157,95,123,95,123,90,157,90"/>
 </map>

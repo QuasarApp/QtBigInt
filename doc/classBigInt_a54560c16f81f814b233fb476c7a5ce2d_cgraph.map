@@ -1,5 +1,5 @@
 <map id="BigInt::BigInt" name="BigInt::BigInt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,112,56"/>
+<area shape="rect" id="Node000001" title="Constructs a number from a 64&#45;bit signed integer." alt="" coords="5,31,112,56"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#a708a4c67dd3e4bb9b8371e58aec7224e" title=" " alt="" coords="160,31,255,56"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,41,146,41,146,46,112,46"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#addc2cc858db5cbda9f746e9e35d15c1c" title=" " alt="" coords="310,5,391,31"/>

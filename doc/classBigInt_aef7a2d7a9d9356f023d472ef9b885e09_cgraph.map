@@ -1,5 +1,5 @@
 <map id="BigInt::isPrime" name="BigInt::isPrime">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,259,123,284"/>
+<area shape="rect" id="Node000001" title="Tests if the number is prime." alt="" coords="5,259,123,284"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#ac0a666324d532679d7600cdcd5c1792e" title=" " alt="" coords="171,259,333,284"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,269,157,269,157,274,123,274"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a4c564d05c4d6dcb37e9810b64b0b794a" title=" " alt="" coords="401,5,497,31"/>

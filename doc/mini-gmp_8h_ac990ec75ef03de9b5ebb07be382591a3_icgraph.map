@@ -1,12 +1,12 @@
 <map id="mpz_set_si" name="mpz_set_si">
 <area shape="rect" id="Node000001" title=" " alt="" coords="796,80,891,105"/>
-<area shape="rect" id="Node000002" href="$classBigInt.html#a54560c16f81f814b233fb476c7a5ce2d" title=" " alt="" coords="627,5,734,31"/>
+<area shape="rect" id="Node000002" href="$classBigInt.html#a54560c16f81f814b233fb476c7a5ce2d" title="Constructs a number from a 64&#45;bit signed integer." alt="" coords="627,5,734,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="807,75,747,44,719,33,721,28,749,40,810,71"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#ac9de2cd8104a2da880ed198643607a56" title=" " alt="" coords="630,55,731,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="782,86,731,78,732,73,783,81"/>
 <area shape="rect" id="Node000009" href="$mini-gmp_8c.html#a8776bfb1d3767f6b92fdaafe9eeff11a" title=" " alt="" coords="619,104,742,129"/>
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="783,104,743,110,742,105,782,99"/>
-<area shape="rect" id="Node000010" href="$classBigInt.html#a5c82bcd3df9a07d324c03f442855722e" title=" " alt="" coords="613,153,748,179"/>
+<area shape="rect" id="Node000010" href="$classBigInt.html#a5c82bcd3df9a07d324c03f442855722e" title="Assignment from a 64&#45;bit signed integer." alt="" coords="613,153,748,179"/>
 <area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="808,114,749,143,718,156,716,151,747,138,806,109"/>
 <area shape="rect" id="Node000004" href="$mini-gmp_8c.html#a81a79a4b9c7cd0ef83ea1c2a17bf4b05" title=" " alt="" coords="471,55,565,80"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="616,70,566,70,566,65,616,65"/>
@@ -14,8 +14,8 @@
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="457,70,423,70,423,65,457,65"/>
 <area shape="rect" id="Node000006" href="$mini-gmp_8c.html#a5540f7395f6bc63b0ff038c4ccfbeb61" title=" " alt="" coords="161,29,277,55"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="311,60,277,54,278,49,312,55"/>
-<area shape="rect" id="Node000007" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title=" " alt="" coords="165,79,273,104"/>
+<area shape="rect" id="Node000007" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title="Modular exponentiation (in place)." alt="" coords="165,79,273,104"/>
 <area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="312,80,274,86,273,80,311,74"/>
-<area shape="rect" id="Node000008" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title=" " alt="" coords="5,79,113,104"/>
+<area shape="rect" id="Node000008" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title="Modular exponentiation (static, returns a new number)." alt="" coords="5,79,113,104"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="152,94,114,94,114,89,152,89"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="BigInt::pow" name="BigInt::pow">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,131,100,156"/>
+<area shape="rect" id="Node000001" title="Raises the number to an integer power (in place)." alt="" coords="5,131,100,156"/>
 <area shape="poly" id="edge14_Node000001_Node000001" title=" " alt="" coords="28,132,23,122,25,113,36,106,53,104,73,108,82,116,78,120,70,112,53,109,37,111,30,116,28,122,32,129"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#a11ce6b0f8a4289dc70252f0d7dbbaa3c" title=" " alt="" coords="148,131,251,156"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,141,134,141,134,146,100,146"/>

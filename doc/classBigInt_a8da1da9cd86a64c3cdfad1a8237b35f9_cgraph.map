@@ -1,5 +1,5 @@
 <map id="BigInt::sizeBytes" name="BigInt::sizeBytes">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,136,31"/>
+<area shape="rect" id="Node000001" title="Returns the amount of memory allocated for the number in bytes." alt="" coords="5,5,136,31"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#ad9438ca5accc5de511385b1d06c631df" title=" " alt="" coords="184,5,267,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,15,170,15,170,21,136,21"/>
 </map>

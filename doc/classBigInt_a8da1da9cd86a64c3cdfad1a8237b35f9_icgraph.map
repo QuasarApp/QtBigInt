@@ -1,5 +1,5 @@
 <map id="BigInt::sizeBytes" name="BigInt::sizeBytes">
-<area shape="rect" id="Node000001" title=" " alt="" coords="172,5,303,31"/>
+<area shape="rect" id="Node000001" title="Returns the amount of memory allocated for the number in bytes." alt="" coords="172,5,303,31"/>
 <area shape="rect" id="Node000002" href="$classBigInt.html#accad2a9bc5db3542ee5c724875648103" title="Returns the size of the number in bits." alt="" coords="5,5,124,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,21,124,21,124,15,158,15"/>
 </map>

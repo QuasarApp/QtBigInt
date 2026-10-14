@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "QtBigInt", "index.html", [
-    [ "<img src=\"res/png/QtBigint_Banner_web.png\" alt=\"QtBigInt Logo\"/>", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -47,15 +46,16 @@ var NAVTREE =
         [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Examples", "examples.html", "examples" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
 "annotated.html",
-"mini-gmp_8c.html#a069b01809c0b78ca1e30d21e125589d9",
-"mini-gmp_8h.html#a4f63ce84f176be6e806d238dfa092d83"
+"mini-gmp_8c.html#a061c80c009febc616e681c86cb8ab04f",
+"mini-gmp_8h.html#a4f5ce655478d22b4085a085abb487e43"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

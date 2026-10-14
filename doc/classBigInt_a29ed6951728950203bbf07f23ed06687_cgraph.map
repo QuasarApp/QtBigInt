@@ -1,5 +1,5 @@
 <map id="BigInt::gcd" name="BigInt::gcd">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,96,204"/>
+<area shape="rect" id="Node000001" title="Computes the greatest common divisor of two numbers (in place)." alt="" coords="5,179,96,204"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#a6892db96c9e7141e2bb9d7100ea972ef" title=" " alt="" coords="144,179,224,204"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,189,130,189,130,194,96,194"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a610c97548e4330ae0ed1ddef5931600e" title=" " alt="" coords="293,5,373,31"/>

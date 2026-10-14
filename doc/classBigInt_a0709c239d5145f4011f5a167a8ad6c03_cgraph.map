@@ -1,5 +1,5 @@
 <map id="BigInt::operator=" name="BigInt::operator=">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,140,31"/>
+<area shape="rect" id="Node000001" title="Assignment from another BigInt (copy)." alt="" coords="5,5,140,31"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#add9d43be8936d955535045d8196d5ecb" title=" " alt="" coords="188,5,265,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,15,174,15,174,21,140,21"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a1aef7bad59f29188d017ebfb7ba2b161" title=" " alt="" coords="313,5,407,31"/>

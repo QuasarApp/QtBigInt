@@ -46,14 +46,14 @@
 <area shape="poly" id="edge20_Node000019_Node000012" title=" " alt="" coords="570,256,518,248,519,242,571,250"/>
 <area shape="rect" id="Node000020" href="$mini-gmp_8c.html#a8989a8ba1923a8c67b24d994e89b4f17" title=" " alt="" coords="403,274,525,299"/>
 <area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="571,274,526,281,525,275,571,269"/>
-<area shape="rect" id="Node000021" href="$classBigInt.html#ab89d4bd90389859a59c243d01b18b7bf" title=" " alt="" coords="417,354,511,379"/>
+<area shape="rect" id="Node000021" href="$classBigInt.html#ab89d4bd90389859a59c243d01b18b7bf" title="Raises the number to an integer power (in place)." alt="" coords="417,354,511,379"/>
 <area shape="poly" id="edge22_Node000019_Node000021" title=" " alt="" coords="586,283,575,289,522,323,482,356,478,352,519,319,572,284,584,278"/>
 <area shape="poly" id="edge24_Node000021_Node000021" title=" " alt="" coords="494,343,485,335,464,332,446,334,437,339,435,345,440,352,435,355,429,345,433,336,445,329,464,327,487,331,497,339"/>
 <area shape="rect" id="Node000022" href="$classBigInt.html#ab44349a2986c463d1acc6990213a300b" title="Returns 10 raised to the power of pow (10 ^ pow)." alt="" coords="224,354,355,379"/>
 <area shape="poly" id="edge23_Node000021_Node000022" title=" " alt="" coords="403,369,355,369,355,364,403,364"/>
-<area shape="rect" id="Node000023" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title=" " alt="" coords="37,430,145,455"/>
+<area shape="rect" id="Node000023" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title="Modular exponentiation (static, returns a new number)." alt="" coords="37,430,145,455"/>
 <area shape="poly" id="edge25_Node000021_Node000023" title=" " alt="" coords="404,383,355,393,145,435,144,430,354,388,402,377"/>
-<area shape="rect" id="Node000024" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title=" " alt="" coords="235,455,343,480"/>
+<area shape="rect" id="Node000024" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title="Modular exponentiation (in place)." alt="" coords="235,455,343,480"/>
 <area shape="poly" id="edge26_Node000021_Node000024" title=" " alt="" coords="426,388,404,401,356,438,321,457,318,453,353,434,401,396,423,383"/>
 <area shape="poly" id="edge27_Node000024_Node000023" title=" " alt="" coords="221,462,144,452,145,447,222,457"/>
 <area shape="poly" id="edge30_Node000025_Node000024" title=" " alt="" coords="583,333,575,338,561,351,552,365,543,379,527,393,493,409,444,427,340,458,339,452,442,422,491,404,524,388,538,375,547,362,556,348,572,334,580,329"/>

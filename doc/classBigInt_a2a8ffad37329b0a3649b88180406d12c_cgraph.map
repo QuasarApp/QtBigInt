@@ -1,5 +1,5 @@
 <map id="BigInt::~BigInt" name="BigInt::~BigInt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,123,31"/>
+<area shape="rect" id="Node000001" title="Destructor. Releases the memory of the underlying GMP number." alt="" coords="5,5,123,31"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#ab8343601f8d7c8a2a11fa9f00100b5bd" title=" " alt="" coords="171,5,260,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,15,157,15,157,21,123,21"/>
 </map>

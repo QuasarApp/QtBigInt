@@ -1,8 +1,8 @@
 <map id="BigInt::powm" name="BigInt::powm">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,433,113,459"/>
+<area shape="rect" id="Node000001" title="Modular exponentiation (in place)." alt="" coords="5,433,113,459"/>
 <area shape="rect" id="Node000002" href="$mini-gmp_8c.html#a8090665fb5f07eeb8f2cba0b98dfbd24" title=" " alt="" coords="161,457,259,483"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,452,148,457,147,463,113,457"/>
-<area shape="rect" id="Node000041" href="$classBigInt.html#ab89d4bd90389859a59c243d01b18b7bf" title=" " alt="" coords="163,320,257,345"/>
+<area shape="rect" id="Node000041" href="$classBigInt.html#ab89d4bd90389859a59c243d01b18b7bf" title="Raises the number to an integer power (in place)." alt="" coords="163,320,257,345"/>
 <area shape="poly" id="edge59_Node000001_Node000041" title=" " alt="" coords="76,431,180,352,183,356,79,435"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#aa8f52d9e9f6d40959247f287389870e7" title=" " alt="" coords="829,1109,920,1135"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,483,222,591,240,762,253,852,268,937,287,1008,309,1058,353,1119,400,1166,451,1201,506,1224,564,1234,627,1233,693,1219,764,1194,779,1184,788,1172,797,1159,812,1145,823,1138,826,1143,815,1149,801,1162,793,1176,783,1188,767,1199,695,1224,627,1238,564,1240,504,1229,449,1206,397,1171,349,1122,304,1061,282,1009,263,938,247,853,235,762,217,591,209,483"/>

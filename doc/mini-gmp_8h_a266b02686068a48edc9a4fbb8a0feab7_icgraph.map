@@ -16,9 +16,9 @@
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="537,45,460,45,460,39,537,39"/>
 <area shape="rect" id="Node000008" href="$mini-gmp_8c.html#a5540f7395f6bc63b0ff038c4ccfbeb61" title=" " alt="" coords="161,5,277,31"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="348,37,277,28,278,23,348,32"/>
-<area shape="rect" id="Node000009" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title=" " alt="" coords="165,55,273,80"/>
+<area shape="rect" id="Node000009" href="$classBigInt.html#a2558a4afd3e5ed1b55a569a50443c72d" title="Modular exponentiation (in place)." alt="" coords="165,55,273,80"/>
 <area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="349,53,274,63,273,58,348,48"/>
-<area shape="rect" id="Node000010" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title=" " alt="" coords="5,55,113,80"/>
+<area shape="rect" id="Node000010" href="$classBigInt.html#ab92928cd13701c60fb908b95b186eea2" title="Modular exponentiation (static, returns a new number)." alt="" coords="5,55,113,80"/>
 <area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="152,70,114,70,114,65,152,65"/>
 <area shape="rect" id="Node000012" href="$mini-gmp_8c.html#ab389921c1f3627d8b1a5e04f3b02fcd0" title=" " alt="" coords="544,79,653,104"/>
 <area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="701,126,639,107,641,102,703,121"/>

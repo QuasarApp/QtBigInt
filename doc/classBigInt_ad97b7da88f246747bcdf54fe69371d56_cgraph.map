@@ -1,8 +1,8 @@
 <map id="BigInt::longBytes" name="BigInt::longBytes">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,139,31"/>
+<area shape="rect" id="Node000001" title="Returns the current length of the number in bytes." alt="" coords="5,5,139,31"/>
 <area shape="rect" id="Node000002" href="$classBigInt.html#a9ee28e52ec6b4ef87919ca01bc574b80" title="Returns the current length of the number in bits." alt="" coords="187,5,308,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,15,173,15,173,21,139,21"/>
-<area shape="rect" id="Node000003" href="$classBigInt.html#a42f4e27b7cfd10e412c8df87fdfaf7e2" title=" " alt="" coords="356,5,483,31"/>
+<area shape="rect" id="Node000003" href="$classBigInt.html#a42f4e27b7cfd10e412c8df87fdfaf7e2" title="Returns the number as a string." alt="" coords="356,5,483,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="308,15,342,15,342,21,308,21"/>
 <area shape="rect" id="Node000004" href="$mini-gmp_8c.html#aae39cd42caa1d2987641eb107ddedb77" title=" " alt="" coords="531,5,633,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="483,15,517,15,517,21,483,21"/>
