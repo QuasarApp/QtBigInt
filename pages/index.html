@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="QtBigInt - Arbitrary-sized integer class for C++ with qmake and CMake build system support. Powered by minigmp.">
+<meta name="description" content="QtBigInt - Arbitrary-sized integer class for C++ with CMake build system support. Powered by minigmp 6.3.0.">
 <title>QtBigInt - Arbitrary-sized integer class for C++</title>
 <style>
   :root {
@@ -98,6 +98,9 @@
     font-family: "Roboto Mono", Consolas, monospace;
     font-size: .9rem; line-height: 1.5;
   }
+  .usage p.links { margin: 14px 0 0; font-size: .95rem; color: var(--md-on-surface-variant); }
+  .usage a { color: var(--md-primary); text-decoration: none; font-weight: 500; }
+  .usage a:hover { text-decoration: underline; }
 
   /* Footer */
   footer {
@@ -118,7 +121,8 @@
   <img src="img/QtBigint_Logo_web.png" alt="QtBigInt logo">
   <a class="brand" href="index.html">QtBigInt</a>
   <nav>
-    <a class="btn btn-tonal" href="doc/index.html">Documentation</a>
+    <a class="btn btn-tonal" href="doc/index.html">README</a>
+    <a class="btn btn-tonal" href="doc/annotated.html">API Reference</a>
     <a class="btn btn-outlined" href="https://github.com/QuasarApp/QtBigInt">GitHub</a>
   </nav>
 </header>
@@ -127,12 +131,12 @@
   <img class="banner" src="img/QtBigint_Banner_web.png" alt="QtBigInt banner">
   <h1><b>QtBigInt</b> - Arbitrary-sized integer class for C++</h1>
   <p class="lead">
-    Arbitrary-sized integer class for C++ with build system support for Qt (qmake) and CMake.
-    Powered by minigmp 6.1.2 for high performance, with no additional dependencies
+    Arbitrary-sized integer class for C++ with CMake build system support.
+    Powered by minigmp 6.3.0 for high performance, with no additional dependencies
     other than the standard library.
   </p>
   <div class="actions">
-    <a class="btn btn-filled" href="doc/index.html">Read the Documentation</a>
+    <a class="btn btn-filled" href="doc/index.html">Read the README</a>
     <a class="btn btn-tonal" href="https://github.com/QuasarApp/QtBigInt">Get it on GitHub</a>
   </div>
 </section>
@@ -141,22 +145,22 @@
   <div class="card">
     <h2>API Reference</h2>
     <p>Complete reference of the <code>BigInt</code> class, generated automatically with Doxygen.</p>
-    <a href="doc/index.html">Open API Reference &rarr;</a>
+    <a href="doc/annotated.html">Open API Reference &rarr;</a>
   </div>
   <div class="card">
     <h2>Features</h2>
     <ul>
       <li>No additional dependencies other than the standard library</li>
       <li>Support for all arithmetic operators</li>
-      <li>Based on the minigmp 6.1.2 library for high performance</li>
-      <li>Build system support: qmake and CMake</li>
+      <li>Based on the minigmp 6.3.0 library for high performance</li>
+      <li>CMake build system, no Qt libraries required</li>
     </ul>
   </div>
   <div class="card">
     <h2>Repository</h2>
     <ul>
       <li><a href="https://github.com/QuasarApp/QtBigInt">QuasarApp/QtBigInt</a></li>
-      <li><a href="https://github.com/QuasarApp/QtBigInt#build">Build instructions</a></li>
+      <li><a href="https://github.com/QuasarApp/QtBigInt#include-cmake">Build instructions (CMake)</a></li>
       <li><a href="https://github.com/QuasarApp/QtBigInt/issues">Issues &amp; Discussions</a></li>
     </ul>
   </div>
@@ -171,6 +175,11 @@ big2 = "9876543210123456789098765432101234567890";
 
 std::cout &lt;&lt; (big1 * big2 * 123456).getString() &lt;&lt; "\n";
 // Output: 1505331490682966620443288524512589666204282352096057600</pre>
+  <p class="links">
+    A complete, ready-to-compile example:
+    <a href="https://github.com/QuasarApp/QtBigInt/blob/main/examples/bigint_usage_example.cpp">examples/bigint_usage_example.cpp</a> &middot;
+    Read the human-readable <a href="doc/class_bigint.html">BigInt class documentation</a>.
+  </p>
 </section>
 
 <footer>
