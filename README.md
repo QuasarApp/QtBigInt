@@ -9,15 +9,6 @@
 * Support for all arithmetic operators, which allows you to easily integrate the library into any of your algorithms.
 * Based on the minigmp 6.1.2 library that provides high performance.
 
-# Build
-
-
- * git clone https://github.com/QuasarApp/QtBigInt.git
- * cd QtBigInt
- * qmake -r 
- * make -j8
- * make test #(for testing)
-
 # Include
 
 ## For cmake projects
