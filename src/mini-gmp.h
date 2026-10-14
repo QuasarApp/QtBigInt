@@ -1,6 +1,6 @@
 /* mini-gmp, a minimalistic implementation of a GNU GMP subset.
 
-Copyright 2011-2015 Free Software Foundation, Inc.
+Copyright 2011-2015, 2017, 2019-2021 Free Software Foundation, Inc.
 
 This file is part of the GNU MP Library.
 
@@ -48,12 +48,12 @@ extern "C" {
 #define UN_USED(X) (void)X
 
 void mp_set_memory_functions (void *(*) (size_t),
-                  void *(*) (void *, size_t, size_t),
-                  void (*) (void *, size_t));
+			      void *(*) (void *, size_t, size_t),
+			      void (*) (void *, size_t));
 
 void mp_get_memory_functions (void *(**) (size_t),
-                  void *(**) (void *, size_t, size_t),
-                  void (**) (void *, size_t));
+			      void *(**) (void *, size_t, size_t),
+			      void (**) (void *, size_t));
 
 typedef unsigned long long uIntMpz;
 typedef long long intMpz;
@@ -68,10 +68,10 @@ typedef const mp_limb_t *mp_srcptr;
 typedef struct
 {
   int _mp_alloc;		/* Number of *limbs* allocated and pointed
-                   to by the _mp_d field.  */
+				   to by the _mp_d field.  */
   int _mp_size;			/* abs(_mp_size) is the number of limbs the
-                   last field points to.  If _mp_size is
-                   negative this is a negative number.  */
+				   last field points to.  If _mp_size is
+				   negative this is a negative number.  */
   mp_limb_t *_mp_d;		/* Pointer to the limbs.  */
 } __mpz_struct;
 
@@ -222,6 +222,8 @@ void mpz_rootrem (mpz_t, mpz_t, const mpz_t, uIntMpz);
 int mpz_root (mpz_t, const mpz_t, uIntMpz);
 
 void mpz_fac_ui (mpz_t, uIntMpz);
+void mpz_2fac_ui (mpz_t, uIntMpz);
+void mpz_mfac_uiui (mpz_t, uIntMpz, uIntMpz);
 void mpz_bin_uiui (mpz_t, uIntMpz, uIntMpz);
 
 int mpz_probab_prime_p (const mpz_t, int);
@@ -243,6 +245,10 @@ mp_bitcnt_t mpz_scan1 (const mpz_t, mp_bitcnt_t);
 
 int mpz_fits_slong_p (const mpz_t);
 int mpz_fits_ulong_p (const mpz_t);
+int mpz_fits_sint_p (const mpz_t);
+int mpz_fits_uint_p (const mpz_t);
+int mpz_fits_sshort_p (const mpz_t);
+int mpz_fits_ushort_p (const mpz_t);
 intMpz mpz_get_si (const mpz_t);
 uIntMpz mpz_get_ui (const mpz_t);
 double mpz_get_d (const mpz_t);
@@ -290,7 +296,9 @@ int mpz_init_set_str (mpz_t, const char *, int);
   || defined (_MSL_STDIO_H)           /* Metrowerks */          \
   || defined (_STDIO_H_INCLUDED)      /* QNX4 */		\
   || defined (_ISO_STDIO_ISO_H)       /* Sun C++ */		\
-  || defined (__STDIO_LOADED)         /* VMS */
+  || defined (__STDIO_LOADED)         /* VMS */			\
+  || defined (_STDIO)                 /* HPE NonStop */         \
+  || defined (__DEFINED_FILE)         /* musl */
 size_t mpz_out_str (FILE *, int, const mpz_t);
 #endif
 
