@@ -9,9 +9,8 @@
 * Support for all arithmetic operators, which allows you to easily integrate the library into any of your algorithms.
 * Based on the minigmp 6.1.2 library that provides high performance.
 
-# Include
+# Include (cmake)
 
-## For cmake projects
 #### The cmake build do not required Qt libraries. 
  
  * cd yourRepo
