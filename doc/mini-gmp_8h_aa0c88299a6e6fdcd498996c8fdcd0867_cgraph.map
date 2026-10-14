@@ -4,6 +4,12 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,31,170,24,171,29,129,36"/>
 <area shape="rect" id="Node000003" href="$mini-gmp_8c.html#a708a4c67dd3e4bb9b8371e58aec7224e" title=" " alt="" coords="176,55,271,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,50,163,55,162,61,128,55"/>
-<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#a3c0e33b35cf1f7d41471cef5add4d772" title=" " alt="" coords="319,55,415,80"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="271,65,305,65,305,70,271,70"/>
+<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#addc2cc858db5cbda9f746e9e35d15c1c" title=" " alt="" coords="326,29,407,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="270,56,312,49,313,54,271,62"/>
+<area shape="rect" id="Node000007" href="$mini-gmp_8c.html#a3c0e33b35cf1f7d41471cef5add4d772" title=" " alt="" coords="319,79,415,104"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="271,73,305,78,305,84,270,78"/>
+<area shape="rect" id="Node000005" href="$mini-gmp_8c.html#add9d43be8936d955535045d8196d5ecb" title=" " alt="" coords="463,29,540,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="408,39,448,39,448,45,408,45"/>
+<area shape="rect" id="Node000006" href="$mini-gmp_8c.html#a1aef7bad59f29188d017ebfb7ba2b161" title=" " alt="" coords="588,29,681,55"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="540,39,574,39,574,45,540,45"/>
 </map>

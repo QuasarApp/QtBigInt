@@ -1,9 +1,0 @@
-<map id="mpz_tdiv_ui" name="mpz_tdiv_ui">
-<area shape="rect" id="Node000001" title=" " alt="" coords="272,31,373,56"/>
-<area shape="rect" id="Node000002" href="$mini-gmp_8c.html#a6892db96c9e7141e2bb9d7100ea972ef" title=" " alt="" coords="144,31,224,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,46,224,46,224,41,258,41"/>
-<area shape="rect" id="Node000003" href="$classBigInt.html#a29ed6951728950203bbf07f23ed06687" title=" " alt="" coords="5,5,96,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,36,96,29,97,24,131,31"/>
-<area shape="rect" id="Node000004" href="$mini-gmp_8c.html#abf68e11d1dbb4b2744e3470aa30c9620" title=" " alt="" coords="10,55,91,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="131,56,92,63,91,57,130,50"/>
-</map>
